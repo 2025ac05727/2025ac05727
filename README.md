@@ -74,11 +74,11 @@ The following metrics were calculated:
 
 |ML Model|Accuracy|AUC|Precision|Recall|F1 Score|MCC|
 |-|-:|-:|-:|-:|-:|-:|
-|Logistic Regression|||||||
-|Decision Tree|||||||
-|kNN|||||||
-|Naive Bayes|||||||
-|Random Forest|||||||
+|Logistic Regression|0.9825|0.9954|0.9861|0.9861|0.9861|0.9623|
+|kNN|0.9561|0.9788|0.9589|0.9722|0.9655|0.9054|
+|Random Forest	|0.9561|0.9937|0.9589|0.9722|0.9655|0.9054|
+|Naive Bayes|0.9386|0.9878|0.9452|0.9583|0.9517|0.8676|
+|Decision Tree|0.9123|0.9157|0.9559|0.9028|0.9286|0.8174|
 
 ### Model Observations
 
