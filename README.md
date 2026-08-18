@@ -1,13 +1,13 @@
 # Machine Learning Assignment 2
 
-## 1. Problem Statement
+## 1\. Problem Statement
 
 This project implements and evaluates multiple machine learning
 classification models on the Breast Cancer Wisconsin dataset.
 The objective is to compare the performance of different
 classification algorithms using multiple evaluation metrics.
 
-## 2. Dataset Description
+## 2\. Dataset Description
 
 ### Dataset Name
 
@@ -33,11 +33,15 @@ Binary Classification
 
 The dataset contains two target classes.
 
-## 3. GitHub Repository Link
+Target classes:
 
-To be added after GitHub repository creation.
+\['malignant' 'benign']
 
-## 4. Models Used
+## 3\. GitHub Repository Link
+
+https://github.com/2025ac05727/2025ac05727/tree/main
+
+## 4\. Models Used
 
 The following classification models were implemented:
 
@@ -51,22 +55,30 @@ The following classification models were implemented:
 
 The following metrics were calculated:
 
-- Accuracy
-- AUC
-- Precision
-- Recall
-- F1 Score
-- Matthews Correlation Coefficient (MCC)
+* Accuracy
+* AUC
+* Precision
+* Recall
+* F1 Score
+* Matthews Correlation Coefficient (MCC)
 
 ### Model Comparison
 
-| ML Model | Accuracy | AUC | Precision | Recall | F1 Score | MCC |
-|---|---:|---:|---:|---:|---:|---:|
-| Logistic Regression | | | | | | |
-| Decision Tree | | | | | | |
-| kNN | | | | | | |
-| Naive Bayes | | | | | | |
-| Random Forest | | | | | | |
+
+
+
+
+
+
+
+
+|ML Model|Accuracy|AUC|Precision|Recall|F1 Score|MCC|
+|-|-:|-:|-:|-:|-:|-:|
+|Logistic Regression|||||||
+|Decision Tree|||||||
+|kNN|||||||
+|Naive Bayes|||||||
+|Random Forest|||||||
 
 ### Model Observations
 
@@ -94,37 +106,45 @@ Observation to be added based on experimental results.
 
 The overall winner will be identified based on the experimental evaluation results.
 
-## 5. Streamlit Application
+## 5\. Streamlit Application
+
+
+
+Streamlit Live App: https://2025ac05727-ml-assignment.streamlit.app/
+
+
 
 The application provides:
 
-- Test CSV upload
-- Model selection
-- Accuracy
-- AUC
-- Precision
-- Recall
-- F1 Score
-- MCC
-- Classification report
-- Confusion matrix
-- Model comparison
+* Test CSV upload
+* Model selection
+* Accuracy
+* AUC
+* Precision
+* Recall
+* F1 Score
+* MCC
+* Classification report
+* Confusion matrix
+* Model comparison
 
 Live Streamlit link to be added after deployment.
 
-## 6. Project Structure
+## 6\. Project Structure
 
-ML_Assignment_2/
+2025ac05727/
 
-- app.py
-- requirements.txt
-- README.md
-- test_data.csv
-- model_results.csv
-- model/
-  - scaler.pkl
-  - logistic_regression.pkl
-  - decision_tree.pkl
-  - knn.pkl
-  - naive_bayes.pkl
-  - random_forest.pkl
+* app.py
+* requirements.txt
+* README.md
+* test\_data.csv
+* model\_results.csv
+* model/
+
+  * scaler.pkl
+  * logistic\_regression.pkl
+  * decision\_tree.pkl
+  * knn.pkl
+  * naive\_bayes.pkl
+  * random\_forest.pkl
+
